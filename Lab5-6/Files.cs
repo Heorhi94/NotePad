@@ -32,7 +32,7 @@ namespace Lab5_6
         }
 
 
-        public void ComprFile(string path,string pathCompr)
+        public void ComprFile(string path)
         {
             using (FileStream file = new FileStream(path, FileMode.Open))
             {
@@ -47,7 +47,7 @@ namespace Lab5_6
             }         
         }
 
-        public void DecompressFile(string path,string pathDecomp)
+        public void DecompressFile(string path)
         {
             using (FileStream file = new FileStream(path, FileMode.Open))
             {              

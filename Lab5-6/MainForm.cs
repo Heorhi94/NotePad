@@ -100,7 +100,7 @@ namespace Lab5_6
             else
             {
                 string pathDempr = @"D:\StudiesProject\C#\Lab5-6\Lab5-6\Lab5-6\files\decompr.txt";
-                files.DecompressFile(path, pathDempr);            
+                files.DecompressFile(path);            
             }
         }
 
@@ -124,7 +124,7 @@ namespace Lab5_6
             }
             else
             {              
-                files.ComprFile(path,pathCompr);  
+                files.ComprFile(path);  
                 files.ResultCompr(path);            
             }
         }
